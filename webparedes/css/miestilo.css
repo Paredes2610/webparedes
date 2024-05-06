@@ -1,0 +1,213 @@
+/* presentacion pagina inicio */
+.presentacion {
+    justify-content: center;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-top: 60px;
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    text-transform: capitalize;
+ } 
+
+ .presentacion:hover {
+    background-color: #333;
+    color: white;
+}
+/* presentacion pagina inicio */
+
+/* contacto pagina contacto */
+.contacto {
+   justify-content: center;
+   background-color: gray;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease-in-out;
+   margin-top: 60px;
+   width: 50%;
+   margin: 10px auto;
+   text-align: center;
+   text-transform: capitalize;
+ } 
+
+ .contacto:hover {
+   background-color: #333;
+   color: white;
+}
+/* contacto pagina contacto */
+
+/* body en todas las paginas */
+nav {
+    background-color: gray;
+    padding: 10px;
+    overflow: hidden;
+    border-style: double;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+ }
+
+ .logo img {
+    display: block;
+    max-width: 25px;
+    height: auto;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    float: right;
+    text-transform: uppercase;
+ }
+
+ .menu li {
+    display: inline-block;
+    margin-left: 50px;
+ }
+
+ .menu li a {
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 20px;
+
+ }
+
+ .menu li a:hover {
+    background-color: #333;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #555;
+}
+/* body en todas las paginas */
+
+/* formulario en la pagina contacto */
+.forma_contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    justify-content: center;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 60px;
+ }
+  
+ .formulario:hover {
+    transform: scale(1.05);
+ }
+  
+ .formulario h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+ }
+  
+ .formulario input[type="tel"],
+ .formulario input[type="text"],
+ .formulario input[type="email"],
+ .formulario input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out; 
+ } 
+
+ .formulario input[type="tel"]:focus,
+ .formulario input[type="text"]:focus,
+ .formulario input[type="email"]:focus {
+    outline: none;
+    border-color: #5c6bc0; 
+ }
+  
+ .formulario input[type="submit"] {
+    background-color: #5c6bc0;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out; 
+ }
+  
+ .formulario input[type="submit"]:hover {
+    background-color: #3f51b5;
+}
+/* formulario en la pagina contacto */
+
+/* reproductor en la pagina animaciones */
+.contenedor-video {
+    width: 100%;
+    max-width: 640px;
+    margin: 60px auto 20px; 
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  video {
+    width: 100%; 
+    max-width: 640px; 
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .titulo-video {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px; 
+  }
+/* reproductor en la pagina animaciones */
+
+/* galeria en la pagina dibujos */
+.galeria {
+    width: 100%;
+    max-width: 640px;
+    margin: 60px auto; 
+    padding: 20px;
+    background-color: gray;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-galeria {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor-imagenes img {
+    width: 45%; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+/* galeria en la pagina dibujos */
