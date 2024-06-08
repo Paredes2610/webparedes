@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>contacto</title>
         <link rel="stylesheet" type="text/css" href="../css/miestilo.css">
+        <script src="../js/mijs.js"></script>
         <link rel="icon" href="../imagenes_videos/monograma.png" type="image/png">
     </head>
     <body>
@@ -20,20 +21,25 @@
                     <li> <a href="index.html"> contacto </a> </li>   
                 </ul>
         </nav>
-        
         <div class="forma_contenedor">
-            <form name="Form1" action="mypage.asp" method="get">
-                <div class="formulario">
-                    <h2>Contacto</h2>
-                    <input type="text" placeholder="Nombre" required>
-                    <input type="text" placeholder="Apellido" required>
-                    <input type="text" placeholder="Dirección" required>
-                    <input type="tel" placeholder="Teléfono" required>
-                    <input type="email" placeholder="Correo electrónico" required>
+            <form id="miformulario" name="Form1" action="mypage.asp" method="get">
+              <div class="formulario">
+                <h2>Contacto</h2>
+                    <label for="name">nombre:</label>
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <label for="name">apellido:</label>
+                    <input type="text" name="apellido" placeholder="Apellido" required>
+                    <label for="name">direccion:</label>
+                    <input type="text" name="direccion" placeholder="Dirección" required>
+                    <label for="name">telefono:</label>
+                    <input type="number" name="telefono" placeholder="Teléfono" required>
+                    <label for="name">email:</label>
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
                     <input type="submit" value="Enviar">
-                </div>
+              </div>
             </form>
-        </div>
+          </div>
+
         <div class="contacto">
             cont&aacute;ctame a trav&eacute;s de:
             <br>
@@ -43,5 +49,6 @@
             <br>
             
         </div>
+
     </body>
 </html>
