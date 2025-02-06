@@ -175,8 +175,8 @@ video {
     width: 75%; /* Cambia el ancho al 100% */
     transition: transform 0.3s ease-in-out;
     margin-top: 80px;
-    max-width: 400px; /* Agrega un ancho máximo */
-    margin: 10px auto;
+    max-width: 800px; /* Agrega un ancho máximo */
+    margin: 50px auto;
 }
   
 .formulario:hover {
@@ -192,7 +192,8 @@ video {
 .formulario input[type="number"],
 .formulario input[type="text"],
 .formulario input[type="email"],
-.formulario input[type="submit"] {
+.formulario input[type="submit"],
+.formulario button[type="button"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -206,12 +207,14 @@ video {
 
 .formulario input[type="number"]:focus,
 .formulario input[type="text"]:focus,
-.formulario input[type="email"]:focus {
+.formulario input[type="email"]:focus,
+.formulario button[type="button"]:focus {
     outline: none;
     border-color: #5c6bc0; 
 }
   
-.formulario input[type="submit"] {
+.formulario input[type="submit"],
+.formulario button[type="button"] {
     background-color: #5c6bc0;
     color: white;
     cursor: pointer;
@@ -219,7 +222,8 @@ video {
     transition: background-color 0.3s ease-in-out; 
 }
   
-.formulario input[type="submit"]:hover {
+.formulario input[type="submit"]:hover,
+.formulario button[type="button"]:hover {
     background-color: #3f51b5;
 }
 /* formulario en la pagina contacto */
@@ -432,13 +436,66 @@ body {
 }
 /* animacion contacto*/
 
+/* mensaje de error y de succes*/
+.message {
+   font-size: 16px;
+   padding: 10px;
+   border-radius: 5px;
+   margin: 10px 0;
+}
 
+.error {
+   background-color: #f8d7da;
+   color: #721c24;
+   border: 1px solid #f5c6cb;
+}
 
+.success {
+   background-color: #d4edda;
+   color: #155724;
+   border: 1px solid #c3e6cb;
+}
 
+.center {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   width: 80%; /* Puedes ajustar este valor */
+   max-width: 600px; /* Puedes ajustar este valor */
+}
+/* mensaje de error*/
 
+/* header */
 
+.header {
+   background-color: #555;
+   color: white;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+.welcome-message {
+   font-size: 18px;
+   font-weight: bold;
+}
 
+.logout-button {
+   background-color: #464545;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   text-decoration: none;
+   transition: background-color 0.3s ease;
+}
 
+.logout-button:hover {
+   background-color: #d32f2f;
+}
 
-
+/* header */
